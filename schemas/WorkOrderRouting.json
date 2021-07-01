@@ -1,0 +1,82 @@
+[
+  {
+    "mode": "REQUIRED",
+    "name": "_sequence_num",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "_is_deleted",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "_row_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "_source_timestamp",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "WorkOrderID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "ProductID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "OperationSequence",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "LocationID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "ScheduledStartDate",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "ScheduledEndDate",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ActualStartDate",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ActualEndDate",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ActualResourceHrs",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "PlannedCost",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ActualCost",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "ModifiedDate",
+    "type": "DATETIME"
+  }
+]

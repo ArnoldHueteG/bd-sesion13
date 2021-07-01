@@ -1,0 +1,87 @@
+[
+  {
+    "mode": "REQUIRED",
+    "name": "_sequence_num",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "_is_deleted",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "_row_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "_source_timestamp",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "PurchaseOrderID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "RevisionNumber",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Status",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "EmployeeID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "VendorID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "ShipMethodID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "OrderDate",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ShipDate",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "SubTotal",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "TaxAmt",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Freight",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "TotalDue",
+    "type": "NUMERIC"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "ModifiedDate",
+    "type": "DATETIME"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "mode": "REQUIRED",
+    "name": "_sequence_num",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "_is_deleted",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "_row_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "_source_timestamp",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "CountryRegionCode",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "Name",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "ModifiedDate",
+    "type": "DATETIME"
+  }
+]

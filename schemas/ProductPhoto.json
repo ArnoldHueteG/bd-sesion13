@@ -1,0 +1,52 @@
+[
+  {
+    "mode": "REQUIRED",
+    "name": "_sequence_num",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "_is_deleted",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "_row_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "_source_timestamp",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "ProductPhotoID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ThumbNailPhoto",
+    "type": "BYTES"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ThumbnailPhotoFileName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "LargePhoto",
+    "type": "BYTES"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "LargePhotoFileName",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "ModifiedDate",
+    "type": "DATETIME"
+  }
+]
