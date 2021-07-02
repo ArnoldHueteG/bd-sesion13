@@ -1,11 +1,11 @@
-bq load --source_format=CSV --replace --skip_leading_rows=1 raw_zone2.SalesOrderDetail gs://bk_sqlserver_ahg/tablas/SalesOrderDetail.csv schemas/SalesOrderDetail.json
-bq load --source_format=CSV --replace --skip_leading_rows=1 raw_zone2.SalesOrderHeader gs://bk_sqlserver_ahg/tablas/SalesOrderHeader.csv schemas/SalesOrderHeader.json
-bq load --source_format=CSV --replace --skip_leading_rows=1 raw_zone2.Customer gs://bk_sqlserver_ahg/tablas/Customer.csv schemas/Customer.json
-bq load --source_format=CSV --replace --skip_leading_rows=1 raw_zone2.Person gs://bk_sqlserver_ahg/tablas/Person.csv schemas/Person.json
-bq load --source_format=CSV --replace --skip_leading_rows=1 raw_zone2.SalesPerson gs://bk_sqlserver_ahg/tablas/SalesPerson.csv schemas/SalesPerson.json
-bq load --source_format=CSV --replace --skip_leading_rows=1 raw_zone2.Employee gs://bk_sqlserver_ahg/tablas/Employee.csv schemas/Employee.json
-bq load --source_format=CSV --replace --skip_leading_rows=1 raw_zone2.SalesTerritory gs://bk_sqlserver_ahg/tablas/SalesTerritory.csv schemas/SalesTerritory.json
-bq load --source_format=CSV --replace --skip_leading_rows=1 raw_zone2.Product gs://bk_sqlserver_ahg/tablas/Product.csv schemas/Product.json
-bq load --source_format=CSV --replace --skip_leading_rows=1 raw_zone2.ProductSubcategory gs://bk_sqlserver_ahg/tablas/ProductSubcategory.csv schemas/ProductSubcategory.json
-bq load --source_format=CSV --replace --skip_leading_rows=1 raw_zone2.ProductCategory gs://bk_sqlserver_ahg/tablas/ProductCategory.csv schemas/ProductCategory.json
-bq load --source_format=CSV --replace --skip_leading_rows=1 raw_zone2.ProductModel gs://bk_sqlserver_ahg/tablas/ProductModel.csv schemas/ProductModel.json
+bq load --source_format=CSV --replace --skip_leading_rows=1 --allow_quoted_newlines raw_zone2.SalesOrderDetail gs://bk_sqlserver_ahg/tablas/SalesOrderDetail.csv schemas/SalesOrderDetail.json
+bq load --source_format=CSV --replace --skip_leading_rows=1 --allow_quoted_newlines raw_zone2.SalesOrderHeader gs://bk_sqlserver_ahg/tablas/SalesOrderHeader.csv schemas/SalesOrderHeader.json
+bq load --source_format=CSV --replace --skip_leading_rows=1 --allow_quoted_newlines raw_zone2.Customer gs://bk_sqlserver_ahg/tablas/Customer.csv schemas/Customer.json
+bq load --source_format=CSV --replace --skip_leading_rows=1 --allow_quoted_newlines raw_zone2.Person gs://bk_sqlserver_ahg/tablas/Person.csv schemas/Person.json
+bq load --source_format=CSV --replace --skip_leading_rows=1 --allow_quoted_newlines raw_zone2.SalesPerson gs://bk_sqlserver_ahg/tablas/SalesPerson.csv schemas/SalesPerson.json
+bq load --source_format=CSV --replace --skip_leading_rows=1 --allow_quoted_newlines raw_zone2.Employee gs://bk_sqlserver_ahg/tablas/Employee.csv schemas/Employee.json
+bq load --source_format=CSV --replace --skip_leading_rows=1 --allow_quoted_newlines raw_zone2.SalesTerritory gs://bk_sqlserver_ahg/tablas/SalesTerritory.csv schemas/SalesTerritory.json
+bq load --source_format=CSV --replace --skip_leading_rows=1 --allow_quoted_newlines raw_zone2.Product gs://bk_sqlserver_ahg/tablas/Product.csv schemas/Product.json
+bq load --source_format=CSV --replace --skip_leading_rows=1 --allow_quoted_newlines raw_zone2.ProductSubcategory gs://bk_sqlserver_ahg/tablas/ProductSubcategory.csv schemas/ProductSubcategory.json
+bq load --source_format=CSV --replace --skip_leading_rows=1 --allow_quoted_newlines raw_zone2.ProductCategory gs://bk_sqlserver_ahg/tablas/ProductCategory.csv schemas/ProductCategory.json
+bq load --source_format=CSV --replace --skip_leading_rows=1 --allow_quoted_newlines raw_zone2.ProductModel gs://bk_sqlserver_ahg/tablas/ProductModel.csv schemas/ProductModel.json
