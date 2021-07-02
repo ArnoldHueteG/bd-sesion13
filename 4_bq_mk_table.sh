@@ -1,0 +1,11 @@
+bq mk --table raw_zone2.SalesOrderDetail schemas/SalesOrderDetail.json
+bq mk --table raw_zone2.SalesOrderHeader schemas/SalesOrderHeader.json
+bq mk --table raw_zone2.Customer schemas/Customer.json
+bq mk --table raw_zone2.Person schemas/Person.json
+bq mk --table raw_zone2.SalesPerson schemas/SalesPerson.json
+bq mk --table raw_zone2.Employee schemas/Employee.json
+bq mk --table raw_zone2.SalesTerritory schemas/SalesTerritory.json
+bq mk --table raw_zone2.Product schemas/Product.json
+bq mk --table raw_zone2.ProductSubcategory schemas/ProductSubcategory.json
+bq mk --table raw_zone2.ProductCategory schemas/ProductCategory.json
+bq mk --table raw_zone2.ProductModel schemas/ProductModel.json

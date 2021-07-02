@@ -1,0 +1,11 @@
+bq rm -f -t raw_zone2.SalesOrderDetail
+bq rm -f -t raw_zone2.SalesOrderHeader
+bq rm -f -t raw_zone2.Customer
+bq rm -f -t raw_zone2.Person
+bq rm -f -t raw_zone2.SalesPerson
+bq rm -f -t raw_zone2.Employee
+bq rm -f -t raw_zone2.SalesTerritory
+bq rm -f -t raw_zone2.Product
+bq rm -f -t raw_zone2.ProductSubcategory
+bq rm -f -t raw_zone2.ProductCategory
+bq rm -f -t raw_zone2.ProductModel
