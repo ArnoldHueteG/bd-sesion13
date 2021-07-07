@@ -135,7 +135,9 @@ where j.FinishedGoodsFlag = TRUE ;
 
 
 DROP TABLE IF EXISTS `proyecto-bigdata-318002.staging_zone.FactVentas`;
-CREATE TABLE `proyecto-bigdata-318002.staging_zone.FactVentas` AS
+CREATE TABLE `proyecto-bigdata-318002.staging_zone.FactVentas` 
+partition by date(FechaVenta)
+AS
 select  A.SalesOrderID VentaID,
         A.OrderDate FechaVenta,
         A.OnlineOrderFlag FlagVentaOnline,
@@ -166,7 +168,9 @@ group by a.SalesOrderID,
 
 
 DROP TABLE IF EXISTS `proyecto-bigdata-318002.analytics_zone.TablonVentas`;
-CREATE TABLE `proyecto-bigdata-318002.analytics_zone.TablonVentas` AS
+CREATE TABLE `proyecto-bigdata-318002.analytics_zone.TablonVentas`
+partition by date(FechaVenta)
+AS
 SELECT A.VentaID,A.FechaVenta,A.FlagVentaOnline,A.Estado,A.Items,A.MontoTotal,A.Detalle,
     STRUCT(B.ClienteID,B.PersonaID,B.NombreCompleto,B.Abreviatura,B.PrimerNombre,B.SegundoNombre,
     B.ApellidoPaterno,B.Sufijo,B.Telefono,B.TipoTelefono,B.Correo,B.CorreoMarketing,B.TipoDireccion,
